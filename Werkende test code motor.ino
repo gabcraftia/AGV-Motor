@@ -13,7 +13,7 @@ pinMode(button1, INPUT_PULLUP);
 void loop() {
   // put your main code here, to run repeatedly:
 if (digitalRead(button1) == LOW) {
-  esc.writeMicroseconds(1750);
+  esc.writeMicroseconds(1770;
   }
 else {
   esc.writeMicroseconds(2400);
